@@ -65,7 +65,7 @@ public class LineageREST {
     private final AtlasTypeRegistry typeRegistry;
     private final AtlasLineageService atlasLineageService;
     private static final String DEFAULT_DIRECTION = "BOTH";
-    private static final String DEFAULT_DEPTH     = "3";
+    private static final String DEFAULT_DEPTH     = "2";
 
     @Context
     private HttpServletRequest httpServletRequest;
