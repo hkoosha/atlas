@@ -126,7 +126,7 @@ define(['require',
                 }
                 //this.initializeGraph();
                 this.ui.selectDepth.select2({
-                    data: _.sortBy([3, 6, 9, 12, 15, 18, 21]),
+                    data: _.sortBy([1, 2, 3, 6, 9, 12, 15, 18, 21]),
                     tags: true,
                     dropdownCssClass: "number-input",
                     multiple: false
